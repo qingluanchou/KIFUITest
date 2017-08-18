@@ -1,0 +1,5 @@
+target 'threeTestTests' do
+    pod 'KIF', '~> 3.5.1', :configurations => ['Debug']
+end
+
+
