@@ -28,7 +28,7 @@
 - (IBAction)btnClick:(id)sender {
     
     if (self.sss.text.length == 0) {
-        //[SVProgressHUD showErrorWithStatus:@"用户名为空"];
+        [SVProgressHUD showErrorWithStatus:@"用户名为空"];
         return;
     }
     
