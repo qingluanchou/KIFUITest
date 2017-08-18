@@ -53,7 +53,7 @@
 - (void)testb
 {
     [[viewTester usingLabel:@"input_name"] enterText:@"name"];
-    [[viewTester usingValue:@"Button0"] tap];
+    [[viewTester usingIdentifier:@"login"] tap];
     [[viewTester usingLabel:@"密码为空"] waitForView];
     //[self testc];
 }
