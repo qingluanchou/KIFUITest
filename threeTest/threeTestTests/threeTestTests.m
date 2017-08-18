@@ -41,10 +41,6 @@
 - (void)testc
 {
      [[viewTester usingLabel:@"input_pass"] enterText:@"pass"];
-    //button0
-   //  [[viewTester usingValue:@"登录"] tap];
-    
-    
      [[viewTester usingIdentifier:@"login"] tap];
      [[viewTester usingLabel:@"用户名为空"] waitForView];
      [viewTester waitForTimeInterval:5.0];
@@ -55,7 +51,6 @@
     [[viewTester usingLabel:@"input_name"] enterText:@"name"];
     [[viewTester usingIdentifier:@"login"] tap];
     [[viewTester usingLabel:@"密码为空"] waitForView];
-    //[self testc];
 }
 
 - (void)testa
@@ -66,6 +61,7 @@
     [[viewTester usingLabel:@"首页"] waitForView];
     [[viewTester usingLabel:@"首页"] tap];
     [[viewTester usingLabel:@"哈哈哈"] waitForView];
+    [[viewTester usingLabel:@"Back"] waitForView];
 }
 
 @end
