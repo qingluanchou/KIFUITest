@@ -61,7 +61,7 @@
     [[viewTester usingLabel:@"首页"] waitForView];
     [[viewTester usingLabel:@"首页"] tap];
     [[viewTester usingLabel:@"哈哈哈"] waitForView];
-    [[viewTester usingLabel:@"Back"] waitForView];
+    [[viewTester usingLabel:@"Back"] tap];
 }
 
 @end
