@@ -17,6 +17,7 @@
 		E37DE9371EAC779900B377A8 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37DE9361EAC779900B377A8 /* TwoViewController.m */; };
 		E37FB5391EB1F6ED006AE38B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E37FB5361EB1F6ED006AE38B /* SVProgressHUD.bundle */; };
 		E37FB53A1EB1F6ED006AE38B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E37FB5381EB1F6ED006AE38B /* SVProgressHUD.m */; };
+		E38099012116B82100764D8E /* fourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E38099002116B82100764D8E /* fourTests.m */; };
 		FC91347A420AA0FDCC61F0BC /* libPods-threeTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED36C6E8D2B35C67DFF5482 /* libPods-threeTestTests.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		E37FB5361EB1F6ED006AE38B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		E37FB5371EB1F6ED006AE38B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		E37FB5381EB1F6ED006AE38B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		E38099002116B82100764D8E /* fourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fourTests.m; sourceTree = "<group>"; };
 		ECD71611608D53BBF02D0BAA /* Pods-threeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-threeTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-threeTestTests/Pods-threeTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				E37DE9271EAC6E7400B377A8 /* threeTestTests.m */,
+				E38099002116B82100764D8E /* fourTests.m */,
 				E37DE9291EAC6E7400B377A8 /* Info.plist */,
 			);
 			path = threeTestTests;
@@ -327,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E37DE9281EAC6E7400B377A8 /* threeTestTests.m in Sources */,
+				E38099012116B82100764D8E /* fourTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

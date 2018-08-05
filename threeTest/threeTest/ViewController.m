@@ -28,7 +28,7 @@
 - (IBAction)btnClick:(id)sender {
     
     if (self.sss.text.length == 0) {
-        //[SVProgressHUD showErrorWithStatus:@"用户名为空"];
+        [SVProgressHUD showErrorWithStatus:@"用户名为空"];
         return;
     }
     
@@ -39,6 +39,9 @@
     
     if ([self.sss.text isEqualToString:@"name"] && [self.pass.text isEqualToString:@"pass"]) {
         [self performSegueWithIdentifier:@"login2two" sender:nil];
+    }
+    else{
+        [SVProgressHUD showErrorWithStatus:@"密码错误"];
     }
     
 }
