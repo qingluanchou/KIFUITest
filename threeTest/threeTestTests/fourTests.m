@@ -43,9 +43,9 @@
 - (void)testf
 {
     [[viewTester usingLabel:@"input_pass"] clearAndEnterText:@"pass1"];
-    [viewTester usingLabel:@"input_name"] clearAndEnterText:@"name"];
+    [[viewTester usingLabel:@"input_name"] clearAndEnterText:@"name"];
     //button0
-    [[viewTester usingValue:@"登录"] tap];
+    [[viewTester usingLabel:@"登录"] tap];
     
     [[viewTester usingLabel:@"密码错误"] waitForView];
     [viewTester waitForTimeInterval:5.0];
